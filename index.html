@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>timely</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/utility.css">
+  <link rel="stylesheet" href="assets/css/select2.min.css">
+  <link rel="stylesheet" href="assets/css/loading.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="logo">
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.4928 27.03027">
+        <path
+          d="M646.62207,351.70508a5.04665,5.04665,0,0,1-1.62012,3.42041,5.22984,5.22984,0,0,1-3.41992,1.07959,5.62693,5.62693,0,0,1-3.645-1.125,3.90181,3.90181,0,0,1-1.395-3.22461v-6.72022h-1.91992v-2.75976H636.542v-4.11035h3.87012v4.11035H645.272v2.75976h-4.85986v6.06006q0,1.77027,1.61963,1.77a2.336,2.336,0,0,0,.9751-.31494q.61449-.31494.79492-1.81494Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+        <path
+          d="M654.812,355.90527H647.3418v-2.91015h1.7998v-7.67969h-1.94971v-2.93994h5.81983v10.61963H654.812ZM648.9917,339.9751v-4.02h3.87012v4.02Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+        <path
+          d="M681.27148,355.90527h-5.66992v-7.62011a4.10532,4.10532,0,0,0-.585-2.48975,2.05487,2.05487,0,0,0-1.7251-.75,2.24139,2.24139,0,0,0-1.99511.8999,4.00972,4.00972,0,0,0-.61475,2.31006v4.73975h1.79981v2.91015h-5.66993v-7.62011a4.10532,4.10532,0,0,0-.585-2.48975,2.05486,2.05486,0,0,0-1.7251-.75,2.234,2.234,0,0,0-2.00976.8999,4.08359,4.08359,0,0,0-.6001,2.31006v4.73975h2.58008v2.91015h-8.25v-2.91015h1.7998v-7.67969h-1.77v-2.93994h5.64014V344.415a4.366,4.366,0,0,1,4.10986-2.30957,5.24964,5.24964,0,0,1,2.7002.71973,3.79978,3.79978,0,0,1,1.71,2.18994,4.38929,4.38929,0,0,1,4.41016-2.90967,5.01007,5.01007,0,0,1,3.23974,1.13965,4.284,4.284,0,0,1,1.41016,3.54v6.21h1.7998Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+        <path
+          d="M694.53174,351.3457a4.62172,4.62172,0,0,1-1.76953,3.17969,6.77781,6.77781,0,0,1-4.53125,1.37988,7.3292,7.3292,0,0,1-4.99414-1.71,6.39408,6.39408,0,0,1-1.96534-5.09961,7.71888,7.71888,0,0,1,1.78565-5.20507,6.2167,6.2167,0,0,1,4.99414-2.085,6.48117,6.48117,0,0,1,4.57617,1.61963,5.61542,5.61542,0,0,1,1.7832,4.26026,9.17667,9.17667,0,0,1-.209,1.9497H685.3208q.33105,3.21094,3.18164,3.21045a2.48917,2.48917,0,0,0,2.11328-.75,3.5227,3.5227,0,0,0,.67578-1.35009Zm-4.10938-3.96045a2.93187,2.93187,0,0,0-.43554-1.91992,2.09123,2.09123,0,0,0-1.93555-.8999,2.29986,2.29986,0,0,0-1.85938.78027,3.92926,3.92926,0,0,0-.83984,2.03955Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+        <path d="M702.67291,355.90527h-7.46973v-2.91015H697.003v-14.79h-1.9502v-2.93994h5.82031v17.73h1.79981Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+        <path
+          d="M718.11487,345.28516h-1.32032L712.444,355.90527l-1.28906,3.39014h1.76953v3h-7.46973v-3h2.16016l1.0791-3.18018-4.73926-10.83007h-1.37988v-2.90967h6.89941v2.90967h-1.34961l2.75977,6.24023h.17969l2.04-6.24023H711.9342v-2.90967h6.18067Z"
+          transform="translate(-634.62207 -335.26514)" style="fill:#fff" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <div class="inputs">
+        <select class="select2" name="province" id="province-input">
+          <option value="0">تهران</option>
+          <option value="5">اردبیل</option>
+          <option value="6">آذربایجان غربی</option>
+          <option value="7">مرکزی</option>
+          <option value="8">اصفهان</option>
+          <option value="9">خوزستان</option>
+          <option value="10">ایلام</option>
+          <option value="11">بوشهر</option>
+          <option value="12">آذربایجان شرقی</option>
+          <option value="13">لرستان</option>
+          <option value="14">گیلان</option>
+          <option value="15">زنجان</option>
+          <option value="16">سیستان و بلوچستان</option>
+          <option value="17">سمنان</option>
+          <option value="18">کردستان</option>
+          <option value="19">مازندران</option>
+          <option value="20">فارس</option>
+          <option value="21">قزوین</option>
+          <option value="22">قم</option>
+          <option value="23">کرمان</option>
+          <option value="24">کرمانشاه</option>
+          <option value="25">گلستان</option>
+          <option value="26">خراسان رضوی</option>
+          <option value="27">همدان</option>
+          <option value="28">چهارمحال بختیاری</option>
+          <option value="29">کهکلویه و بویراحمد</option>
+          <option value="30">یزد</option>
+          <option value="31">هرمزگان</option>
+          <option value="33">خراسان شمالی</option>
+          <option value="34">خراسان جنوبی</option>
+          <option value="35">البرز</option>
+        </select>
+        <select class="select2" name="city" id="city-input">
+        </select>
+      </div>
+      <div class="result"></div>
+    </div>
+  </div>
+  <script src="assets/js/jquery-3.6.1.min.js"></script>
+  <script src="assets/js/select2.min.js"></script>
+  <script src="assets/js/persian-date.min.js"></script>
+  <script src="assets/js/utility.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+/*#region font*/
+@font-face {
+  font-family: IndieFlower;
+  font-weight: 400;
+  src: url(assets/fonts/Indie-Flower/Indie-Flower-Regular.woff2);
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 400;
+  src: url(assets/fonts/Fira-Sans/FiraSans-Regular.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 100;
+  src: url(assets/fonts/Vazir/Vazir-Thin.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 300;
+  src: url(assets/fonts/Vazir/Vazir-Light.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 400;
+  src: url(assets/fonts/Vazir/Vazir-Regular.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 500;
+  src: url(assets/fonts/Vazir/Vazir-Medium.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 700;
+  src: url(assets/fonts/Vazir/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: Vazir;
+  font-weight: 900;
+  src: url(assets/fonts/Vazir/Vazir-Black.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 100;
+  src: url(assets/fonts/Vazir-FD/Vazir-Thin-FD.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 300;
+  src: url(assets/fonts/Vazir-FD/Vazir-Light-FD.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 400;
+  src: url(assets/fonts/Vazir-FD/Vazir-Regular-FD.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 500;
+  src: url(assets/fonts/Vazir-FD/Vazir-Medium-FD.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 700;
+  src: url(assets/fonts/Vazir-FD/Vazir-Bold-FD.woff2);
+}
+@font-face {
+  font-family: Vazir-FD;
+  font-weight: 900;
+  src: url(assets/fonts/Vazir-FD/Vazir-Black-FD.woff2);
+}
+/*#endregion*/
+
+* {
+  box-sizing: border-box;
+  color-scheme: dark;
+  padding: 0;
+  margin: 0;
+  font-family: Vazir-FD;
+}
+
+body {
+  background-color: #181B23;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  padding: 0 !important;
+}
+
+.wrapper {
+  min-width: 300px;
+}
+
+.logo {
+  width: 115px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.result {
+  font-size: 15px;
+}
+
+.result.error {
+  padding: 20px 10px;
+  width: 100%;
+  background-color: #ff282824;
+  border-radius: 10px;
+}
+
+.pray-time {
+  background-color: #262a36;
+  display: block;
+  border-radius: 5px;
+  padding: 6px 9px 6px 11px;
+  margin-top: 5px;
+}
+
+.inputs .select2-container {
+  width: auto !important;
+  margin-bottom: 10px;
+}
+
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-thumb {
+  background: #3b4154;
+  border-radius: 10px;
+  border: 2px solid #262a36;
+}
+
+/* Handle on hover */
+.select2-container--default .select2-results>.select2-results__options::-webkit-scrollbar-thumb:hover {
+  background: hsl(226, 17%, 32%); 
+}
+
+.select2-dropdown {
+  background-color: #262a36;
+  border: 0;
+}
+
+.select2-container--open .select2-dropdown--below {
+  color: white;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: #3b4154;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #333848;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: #262a36;
+  border: 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  background-color: #333848;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: white;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 0;
+  outline: none;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.select2-results__option{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: 'Vazir-FD';
+  font-size: 14px;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  top: 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #6e7691 transparent transparent transparent;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #6e7691 transparent;
+}
+
+.select2-container--open .select2-dropdown {
+  box-shadow: 0px 10px 15px 6px #181B23;
+}

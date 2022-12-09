@@ -1,0 +1,23 @@
+.loading {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #454d62;
+  border-bottom-color: white;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

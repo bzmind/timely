@@ -1,0 +1,190 @@
+{
+  "Provinces": [
+    {
+      "CenterCityCode": 1,
+      "Code": 0,
+      "CountryCode": 1,
+      "Name": "تهران"
+    },
+    {
+      "CenterCityCode": 26,
+      "Code": 5,
+      "CountryCode": 1,
+      "Name": "اردبیل"
+    },
+    {
+      "CenterCityCode": 3,
+      "Code": 6,
+      "CountryCode": 1,
+      "Name": "آذربایجان غربی"
+    },
+    {
+      "CenterCityCode": 4,
+      "Code": 7,
+      "CountryCode": 1,
+      "Name": "مرکزی"
+    },
+    {
+      "CenterCityCode": 2,
+      "Code": 8,
+      "CountryCode": 1,
+      "Name": "اصفهان"
+    },
+    {
+      "CenterCityCode": 5,
+      "Code": 9,
+      "CountryCode": 1,
+      "Name": "خوزستان"
+    },
+    {
+      "CenterCityCode": 29,
+      "Code": 10,
+      "CountryCode": 1,
+      "Name": "ایلام"
+    },
+    {
+      "CenterCityCode": 20,
+      "Code": 11,
+      "CountryCode": 1,
+      "Name": "بوشهر"
+    },
+    {
+      "CenterCityCode": 6,
+      "Code": 12,
+      "CountryCode": 1,
+      "Name": "آذربایجان شرقی"
+    },
+    {
+      "CenterCityCode": 30,
+      "Code": 13,
+      "CountryCode": 1,
+      "Name": "لرستان"
+    },
+    {
+      "CenterCityCode": 16,
+      "Code": 14,
+      "CountryCode": 1,
+      "Name": "گیلان"
+    },
+    {
+      "CenterCityCode": 25,
+      "Code": 15,
+      "CountryCode": 1,
+      "Name": "زنجان"
+    },
+    {
+      "CenterCityCode": 12,
+      "Code": 16,
+      "CountryCode": 1,
+      "Name": "سیستان و بلوچستان"
+    },
+    {
+      "CenterCityCode": 27,
+      "Code": 17,
+      "CountryCode": 1,
+      "Name": "سمنان"
+    },
+    {
+      "CenterCityCode": 22,
+      "Code": 18,
+      "CountryCode": 1,
+      "Name": "کردستان"
+    },
+    {
+      "CenterCityCode": 17,
+      "Code": 19,
+      "CountryCode": 1,
+      "Name": "مازندران"
+    },
+    {
+      "CenterCityCode": 8,
+      "Code": 20,
+      "CountryCode": 1,
+      "Name": "فارس"
+    },
+    {
+      "CenterCityCode": 10,
+      "Code": 21,
+      "CountryCode": 1,
+      "Name": "قزوین"
+    },
+    {
+      "CenterCityCode": 11,
+      "Code": 22,
+      "CountryCode": 1,
+      "Name": "قم"
+    },
+    {
+      "CenterCityCode": 19,
+      "Code": 23,
+      "CountryCode": 1,
+      "Name": "کرمان"
+    },
+    {
+      "CenterCityCode": 21,
+      "Code": 24,
+      "CountryCode": 1,
+      "Name": "کرمانشاه"
+    },
+    {
+      "CenterCityCode": 18,
+      "Code": 25,
+      "CountryCode": 1,
+      "Name": "گلستان"
+    },
+    {
+      "CenterCityCode": 13,
+      "Code": 26,
+      "CountryCode": 1,
+      "Name": "خراسان رضوی"
+    },
+    {
+      "CenterCityCode": 24,
+      "Code": 27,
+      "CountryCode": 1,
+      "Name": "همدان"
+    },
+    {
+      "CenterCityCode": 31,
+      "Code": 28,
+      "CountryCode": 1,
+      "Name": "چهارمحال بختیاری"
+    },
+    {
+      "CenterCityCode": 32,
+      "Code": 29,
+      "CountryCode": 1,
+      "Name": "کهکلویه و بویراحمد"
+    },
+    {
+      "CenterCityCode": 14,
+      "Code": 30,
+      "CountryCode": 1,
+      "Name": "یزد"
+    },
+    {
+      "CenterCityCode": 7,
+      "Code": 31,
+      "CountryCode": 1,
+      "Name": "هرمزگان"
+    },
+    {
+      "CenterCityCode": 15,
+      "Code": 33,
+      "CountryCode": 1,
+      "Name": "خراسان شمالی"
+    },
+    {
+      "CenterCityCode": 827,
+      "Code": 34,
+      "CountryCode": 1,
+      "Name": "خراسان جنوبی"
+    },
+    {
+      "CenterCityCode": 9,
+      "Code": 35,
+      "CountryCode": 1,
+      "Name": "البرز"
+    }
+  ]
+}

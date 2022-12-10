@@ -194,6 +194,10 @@ body {
   margin-bottom: 5px;
 }
 
+.select2-search__field::placeholder {
+  font-size: 14px;
+}
+
 .select2-results__option{
   padding: 5px;
   margin: 5px;

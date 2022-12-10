@@ -114,6 +114,25 @@ function getAllCitiesOfProvince(provinceCode)
 
 function setupSelect2()
 {
+  var observer = new MutationObserver(function (mutations)
+  {
+    mutations.forEach(function (mutation)
+    {
+      for (var i = 0; i < mutation.addedNodes.length; i++)
+      {
+        const item = $(mutation.addedNodes[i]);
+        if (item.find(".select2-search__field").length > 0)
+        {
+          item.find(".select2-search__field").attr("placeholder", "جستجو...");
+        }
+      }
+    });
+  });
+  observer.observe(document, {
+    childList: true,
+    subtree: true
+  });
+
   $(".select2").select2({
     dir: "rtl"
   });

@@ -12,7 +12,7 @@ const convertTime12to24 = (time12h) =>
   return `${hours}:${minutes}`;
 }
 
-function shamsiToMildai(jy, jm, jd)
+function shamsiToMiladi(jy, jm, jd)
 {
   var sal_a, gy, gm, gd, days;
   jy += 1595;
@@ -38,7 +38,7 @@ function shamsiToMildai(jy, jm, jd)
   return [gy + '/' + gm + '/' + gd];
 }
 
-function getFullShamsiDateFromMildi(miladiYear, miladiMonth, miladiDay)
+function getFullShamsiDateFromMiladi(miladiYear, miladiMonth, miladiDay)
 {
   const date = new Date(`${miladiMonth}/${miladiDay}/${miladiYear}`);
 

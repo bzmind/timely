@@ -156,12 +156,12 @@ function getTimeOfCity(cityCode)
       const shamsiYear = parseInt(date.split('/')[0]);
       const shamsiMonth = parseInt(date.split('/')[1]);
       const shamsiDay = parseInt(date.split('/')[2]);
-      const miladiDate = shamsiToMildai(shamsiYear, shamsiMonth, shamsiDay)[0];
+      const miladiDate = shamsiToMiladi(shamsiYear, shamsiMonth, shamsiDay)[0];
 
       const miladiYear = parseInt(miladiDate.split('/')[0]);
       const miladiMonth = parseInt(miladiDate.split('/')[1]);
       const miladiDay = parseInt(miladiDate.split('/')[2]);
-      const fullShamsiDate = getFullShamsiDateFromMildi(miladiYear, miladiMonth, miladiDay);
+      const fullShamsiDate = getFullShamsiDateFromMiladi(miladiYear, miladiMonth, miladiDay);
 
       const imsaak = removeFirstZero(data.Imsaak);
       const sunrise = removeFirstZero(data.Sunrise);

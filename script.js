@@ -204,6 +204,7 @@ function getTimeOfCity(cityCode)
     })
     .catch((err) =>
     {
+      removeLoading(".result");
       $(".result").addClass("error");
       $(".result").append(`
         <span class="d-flex fd-col ai-center">
